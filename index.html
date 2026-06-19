@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Practice 3</title>
+    <style>
+        body {
+            margin: 0;
+            /* font-family: Arial, Helvetica, sans-serif; */
+            background-color: #f0f0f0;
+        }
+
+        .blog-post-card {
+            width: 400px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            /* text-align: center; */
+        }
+
+        .post-img {
+            width: 400px;
+        }
+
+        .read-more {
+            display: inline-block;
+            transition: transform 0.2s ease;
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .post-content {
+            padding: 24px;
+            text-align: center;
+        }
+
+        .post-title, .post-exerpt {
+            margin-bottom: 25px;
+        }
+
+        .blog-post-card:hover {
+            box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.15);
+            /* transform: translateY(-4px); */
+        }
+
+        .read-more:hover {
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+<body>
+
+        <div class="blog-post-card">
+
+        <img class="post-img" src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg">
+
+        <div class="post-content">
+            <h2 class="post-title">Learn Web Development in 2024</h2>
+            <p class="post-excerpt">Stay ahead of the curve with the latest trends in web development. Discover what's new and exciting in 2024</p>
+            <a  href="https://google.com" class="read-more" target="_blank">Read More</a>
+        </div>
+    </div>
+    
+</body>
+</html>
